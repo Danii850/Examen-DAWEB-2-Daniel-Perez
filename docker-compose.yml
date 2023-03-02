@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    tomcat:
+      image: tomcat4
+      container_name: tomcat4
+      ports:
+        - "8080:8080"
